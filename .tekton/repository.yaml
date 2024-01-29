@@ -1,0 +1,9 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-pipe
+  namespace: test-pipe
+spec:
+  url: https://github.com/jduimovich/test-pipe
+
+  
